@@ -1,0 +1,9 @@
+
+MAE	RMSE	R2
+Model			
+Baseline (LinearRegression)	4.610037	5.632435	0.851446
+MLP (Best GridSearchCV)	4.320059	5.361312	0.865403
+LightGBM (Pipeline)	4.240631	5.365822	0.865177
+Ensemble (0.85 MLP + 0.15 LGBM)	4.212721	5.180976	0.874306
+
+
